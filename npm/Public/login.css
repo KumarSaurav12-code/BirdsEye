@@ -1,0 +1,68 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 450px;
+    margin-top: 20px;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+form
+{
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 2%;
+    max-width: 500px;
+    box-shadow: 5px 5px  grey;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+input[type=text], input[type=password]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+}
+button
+{
+    background-color: royalblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover
+{
+    opacity: 0.8;
+}
+.cancelbutton
+{
+    width: auto;
+    padding: 10px 18px;
+    background-color: rgb(244,64,57);
+}
+.imgcontainer
+{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+img.avatar
+{
+    width: 40%;
+    border-radius: 50%;
+}
+.container
+{
+    padding: 16px;
+}
+span.password
+{
+    float: right;
+    padding-top: 16px;
+}
